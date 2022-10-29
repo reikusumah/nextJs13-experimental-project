@@ -1,3 +1,23 @@
+## Rei Kusumah NextJS 13 Experimental Project
+
+This project based on [Dea Afrizal](https://www.youtube.com/c/DeaAfrizal) live stream.
+
+### What's the difference
+
+I try to implement `Image` property from Next JS, and refactor `/postingan/detail` layout with call `/postingan` component (page) to detail layout.
+
+```bash
+  # add this to nextConfig in next.config.json
+  # then, restart 'npx next dev' if next 'Image'
+  # still error
+
+  images: {
+    domains: ["example.com"],
+  },
+```
+
+=========== \*\* ===========
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
